@@ -15,4 +15,7 @@ jobs:
         run: echo "Hello from GitHub Actions!"
 
       - name: Print date and time
-        run: date   
+        run: date
+
+      - name: Print branch name
+        run: echo "Branch: ${{ github.ref_name }}"
