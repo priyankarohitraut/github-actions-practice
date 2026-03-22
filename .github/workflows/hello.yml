@@ -17,7 +17,3 @@ jobs:
        run: ls -la
      - name: print runner os
        run: echo "Running on: $RUNNER_OS"
-    
-
-       
-
